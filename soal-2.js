@@ -15,10 +15,7 @@ console.log(judul)
 const newFunction = function literal(firstName, lastName) {
     return{
         firstName, lastName,
-        fullName: () => {
-            console.log(firstName + " " + lastName)
-        return
-        } 
+        fullName: () => console.log(firstName + " " + lastName) 
     }
 }
 

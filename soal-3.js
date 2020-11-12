@@ -10,6 +10,6 @@ const newObject = {
     spell: "Vimulus Renderus!!!"
 }
 
-const {firstName , lastName, destination, occupation, spell} = newObject;
+const {firstName , lastName, occupation, destination} = newObject;
 
 console.log(firstName, lastName, destination, occupation);
